@@ -12,8 +12,8 @@ h1 {
 }
 
 .sonohead {
-    background-color: rgb(240, 184, 173);
-    color: rgb(25, 56, 58);
+    background-color: #F6CECE;
+    color: #0B3861;
     border: 5px solid rgb(255, 255, 255);
     margin: 20px;
     padding: 20px;
@@ -27,8 +27,8 @@ h1 {
     text-align: center;
     cursor: pointer;
     outline: none;
-    color: rgb(25, 56, 58);
-    background-color: rgb(240, 184, 173);
+    color: #0B3861;
+    background-color: #F6CECE;
     border: 5px solid rgb(255, 255, 255);
     border-radius: 5px;
     box-shadow: 0 9px #9f9191;
