@@ -1,9 +1,46 @@
 body {
     background-image: url("bground.png");
     background-repeat: no-repeat;
+    background-position: center center;
+    align-items: center;
+    background-color: rgb(0, 31, 32);
 }
 
 h1 {
-    color: navy;
-    margin-left: 20px;
+    color: rgb(25, 56, 58);
+    margin: auto;
+}
+
+.sonohead {
+    background-color: rgb(240, 184, 173);
+    color: rgb(25, 56, 58);
+    border: 5px solid rgb(255, 255, 255);
+    margin: 20px;
+    padding: 20px;
+    width: fit-content;
+    text-align: center;
+}
+
+.button {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: rgb(25, 56, 58);
+    background-color: rgb(240, 184, 173);
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 0 9px #9f9191;
+    margin: 20px;
+}
+
+.button:hover {
+    background-color: rgb(179, 93, 93);
+}
+
+.button:active {
+    background-color: #7c4646;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
 }
