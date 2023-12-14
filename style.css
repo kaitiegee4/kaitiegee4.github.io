@@ -6,6 +6,18 @@ body {
     background-color: rgb(0, 31, 32);
 }
 
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 10px;
+}
+
+.grid-item {
+    border: 1px;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+
 h1 {
     color: rgb(25, 56, 58);
     margin: auto;
